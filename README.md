@@ -8,7 +8,7 @@
   - > Daha düzenli ve okunaklı kodlar,
   - > Modülerlik ve yeniden kullanılabilirlik,
   - > Kolay değiştirilebilir değerler,
-  - > Daha az kod yazma: Sass, tekrarlanan kodları bir kez yazmanıza izin verir ve daha sonra bu kodları herhangi bir yerde kullanabilirsiniz.
+  - > Daha az kod yazma.
 
   #### Önizleme 
   - Web sitesini görmek için   [sandalye evi](https://chairweb.netlify.app/) adresini ziyaret edebilirsiniz.
