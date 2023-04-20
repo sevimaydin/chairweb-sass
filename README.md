@@ -5,10 +5,10 @@
   - HTML ve Sass ile front end geliştirme 
   - Sass kullanarak CSS kodlarının daha düzenli ve okunaklı olması
   ####  Sass Kullanımının Avantajları
-  > Daha düzenli ve okunaklı kodlar: Sass, kodları daha organize ve okunaklı hale getirir. Bu sayede daha az hata yapılır ve kodlar daha kolay bakım yapılabilir.
-  > Modülerlik ve yeniden kullanılabilirlik: Sass, kodları modüller halinde tasarlayıp daha sonra farklı projelerde yeniden kullanılabilirsiniz. Bu, kodların yeniden yazılmasını önler ve tasarım sürecini hızlandırır.
-  > Kolay değiştirilebilir değerler: Sass, değişkenlerin kullanımına izin verir. Bu sayede, tasarımınızda kullanılan renkler, yazı boyutları veya diğer değerlerin tek bir yerde değiştirilmesi yeterli olur. Bu, büyük projelerde zamandan tasarruf sağlar.
-  > İmport işlevleri: Sass, CSS dosyalarınızı bir arada tutmanıza ve daha sonra ihtiyaç duyduğunuz dosyaları çağırmanıza olanak sağlar. Bu, daha iyi bir yönetim ve bakım sağlar.
+  - > Daha düzenli ve okunaklı kodlar,
+  - > Modülerlik ve yeniden kullanılabilirlik,
+  - > Kolay değiştirilebilir değerler,
+  - > Daha az kod yazma: Sass, tekrarlanan kodları bir kez yazmanıza izin verir ve daha sonra bu kodları herhangi bir yerde kullanabilirsiniz.
 
   #### Önizleme 
   - Web sitesini görmek için   [sandalye evi](https://chairweb.netlify.app/) adresini ziyaret edebilirsiniz.
