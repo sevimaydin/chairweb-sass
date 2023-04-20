@@ -11,5 +11,5 @@
   - > Daha az kod yazma.
 
   #### Önizleme 
-  - Web sitesini görmek için   [sandalye evi](https://chairweb.netlify.app/) adresini ziyaret edebilirsiniz.
+
    - ![](./images/ekran.gif)
