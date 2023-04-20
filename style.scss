@@ -36,8 +36,8 @@ header {
             white-space: nowrap;
 
             &:hover {
-                color: $red !important;
-                text-shadow: 2px 2px 10px $red;
+                color: $yellow !important;
+                text-shadow: 2px 2px 10px $yellow;
                 transition: all 0.5s;
             }
         }
@@ -48,11 +48,20 @@ header {
             max-width: 50px;
         }
 
+        #logo {
+            font-size: 20px;
+            font-weight: 600;
+            color: rgb(74, 78, 66);
+
+        }
+
         a {
             font-size: 15px;
             font-weight: 600;
             border-right: 1px solid;
             padding: 0 10px;
+
+
         }
     }
 
@@ -65,7 +74,6 @@ header {
     }
 }
 
-// KARŞILAMA ALANI
 
 .hero {
     min-height: calc(100vh - 68px);
@@ -118,7 +126,7 @@ header {
     }
 
     button {
-        background-color: $red;
+        background-color: $yellow;
         padding: 10px 50px;
         border: none;
         font-weight: 700;
@@ -130,7 +138,7 @@ header {
 
         &:hover {
             @extend .hover;
-            background-color: rgb(160, 0, 0);
+            background-color: rgb(213, 205, 50);
         }
     }
 }
@@ -142,12 +150,12 @@ header {
     align-items: center;
 
     &-main {
-        max-width: 600px;
+        max-width: 900px;
 
         transition: all 0.3s;
 
         @include mobile {
-            max-width: 200px;
+            max-width: 500px;
         }
 
         &:hover {
@@ -170,7 +178,7 @@ header {
 #interior {
     @extend %design;
     background: radial-gradient(circle, rgba(0, 0, 0, 0.5) 10%, black),
-        url(/images/s8.jpg);
+        url(/images/s5.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -179,14 +187,14 @@ header {
 #exterior {
     @extend %design;
     background: radial-gradient(circle, rgba(0, 0, 0, 0.5) 10%, black),
-        url(/images/s11.webp);
+        url(/images/s6.jpg);
     background-size: cover;
     background-position: center;
 }
 
-//! arabalar alanı
+//! sandalyeler alanı
 
-#cars-section {
+#cards-section {
     margin: 100px 0;
     display: flex;
     flex-direction: column;
@@ -198,10 +206,10 @@ header {
         text-align: center;
     }
 
-    .cars {
+    .cards {
         display: flex;
         justify-content: center;
-        padding: 10px 100px;
+        padding: 30px 100px;
         gap: 50px;
 
         @include tablet {
@@ -236,7 +244,7 @@ header {
     }
 
     button {
-        background-color: $blue;
+        background-color: $yellow;
         margin: auto;
         padding: 10px 50px;
         border: none;
@@ -245,7 +253,7 @@ header {
 
         &:hover {
             @extend .hover;
-            background: blue;
+            background: rgb(203, 225, 82);
             color: white;
         }
     }
@@ -255,6 +263,7 @@ footer {
     background-color: black;
     display: flex;
     gap: 50px;
+    margin-top: 100px;
     padding: 40px;
     align-items: center;
     justify-content: center;
